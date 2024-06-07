@@ -4,6 +4,9 @@ on:
   push:
     branches: [ master ]
 
+on: workflow_dispatch
+
+
 env:
   LINE_COV_GATE: 70
   MCDC_COV_GATE: 30
