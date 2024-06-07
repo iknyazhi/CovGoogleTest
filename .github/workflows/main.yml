@@ -4,7 +4,6 @@ on:
   push:
     branches: [ master ]
 
-
 env:
   LINE_COV_GATE: 70
   MCDC_COV_GATE: 30
